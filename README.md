@@ -1,8 +1,8 @@
 # سالیدیتی زبان برنامه نویسی قرارداد گرا
 
-شما می توانید در [![solidity at https://gitter.im/ethereum/solidity](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/solidity?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge). سوالات باز خورد ها و پشنهادات خودتان را با ما در میان بگذارید!
+شما می توانید از طریق [![solidity at https://gitter.im/ethereum/solidity](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/solidity?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) سوالات، باز خورد ها و پشنهادات خودتان را با ما در میان بگذارید!
 
-سالیدتی یک زبان سطح بالا قرارداد گرا با نوع نوشتاری ثابت است برای ساختن قرارداد های هوشمند در پلتفرم اتریوم.
+سالیدتی یک زبان سطح بالا ی قرارداد گرا با نوع نوشتار ثابتی است که برای ساختن قرارداد های هوشمند در پلتفرم اتریوم استفاده می شود.
 
 ## فهرست
 
@@ -14,32 +14,32 @@
 
 ## نحوه ساخت محلی مستندات
 
-ابتدا یک پوشه محیط مجازی در `Python3` می سازیم و داخل پوشه ای که ساختیم وارد می شویم:
+1. ابتدا یک پوشه محیط مجازی در `Python3` می سازیم و داخل پوشه ای که ساختیم وارد می شویم:
 
 ```bash
 virtualenv solidity-doc
 cd solidity-doc
 ```
 
-سپس با استفاده از دستور زیر محیط مجازی را فعال می کنیم:
+2. سپس با استفاده از دستور زیر محیط مجازی را فعال می کنیم:
 
 ```bash
 source bin/activate
 ```
 
-سپس مخزن مستندات فارسی سالیدیتی را از اینجا بر می داریم:
+3. سپس مخزن مستندات فارسی سالیدیتی را از اینجا بر می داریم:
 
 ```bash
 git clone https://github.com/firildax/fa-persian
 ```
 
-لیست وابستگی های مورد نیاز در قایل `requirements.txt` قرار دارند با دستور زیر تمام آنها را نصب می کنیم
+4. لیست وابستگی های مورد نیاز در فایل `requirements.txt` قرار دارند با دستور زیر تمام آنها را نصب می کنیم
 
 ```bash
 pip install -r requirements.txt
 ```
 
-سپس وارد پوشه مستندات شده و دستور ساخت فابل های `html` را صادر می کنیم:
+5. سپس وارد پوشه مستندات شده و دستور ساخت فایل های `html` را صادر می کنیم:
 
 ```bash
 cd fa-persian/docs
@@ -65,7 +65,7 @@ contract HelloWorld {
 }
 ```
 
-برا شروع سالیدیتی شما می توانید از [Remix](https://remix.ethereum.org/), استفاده کنید
+برا شروع سالیدیتی شما می توانید از [Remix](https://remix.ethereum.org/) استفاده کنید
 که یک IDE تحت وب است. اینجا چند مثال تقدیم می شود:
 
 1. [Voting](https://docs.soliditylang.org/en/latest/solidity-by-example.html#voting)
@@ -84,4 +84,8 @@ contract HelloWorld {
 
 ## نگهدارنده بخش فارسی
 
-[@saracodic](https://github.com/saracodic)
+- [@saracodic](https://github.com/saracodic) سارا
+
+## کوچیک شما
+
+- [@firildax](https://github.com/firildax) آرمین
